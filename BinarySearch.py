@@ -22,11 +22,5 @@ def binarySearch(arr, el):
             end=middle
 
         middle = int((start + end)/2)
-        print(middle)
-        print(start)
-        print(end)
-
     
     return found
-
-print(binarySearch(arr, 99))
